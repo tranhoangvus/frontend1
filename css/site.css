@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --primary-color:#fff;
+}
+body{
+    background-color: gray;
+}
+header{
+        height: 300px;
+        width: 100%;
+        background-image: url("../images/background01.jpg");     
+        background-size: cover; 
+        background-position-y:-75px ;
+        background-repeat: no-repeat;        
+}
+.ten{
+    font-style: italic;
+    color: whitesmoke;
+    font-family: "Roboto Slab";
+    text-align: center;
+    font-size: 50px;
+}
+.MaSinhVien{
+    font-style: italic;
+    color: whitesmoke;
+    font-family: "Roboto Slab";
+    text-align: center;
+    font-size: 50px;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/a.jpg");
+    background-size: cover;
+    left: 600px;
+    border-radius: 50px;
+    border: 10px #fff solid;
+    position: absolute;
+    
+}
+.Thongtin{
+    position: relative;
+    left:200px;
+    font-size: 30px;
+}
+.Thongtin::before{
+    content: "\f007";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;    
+}
+.thongtin-item{
+    position: relative;
+    color: yellow;
+    font-size: 20px;
+}
+.thongtin-item::before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;  
+    color: black;
+}
+.ketqua{
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+}
+.ketqua1-item{
+    position: relative;
+    color: blueviolet;
+    font-size: 20px;
+}
+.ketqua1-item::before{
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;  
+    color: wheat;
+}
+.ketqua::before{
+    content: "\f02d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;  
+    color: black;   
+}
+.sanpham{
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+}
+.sanpham::before{
+    content: "\f02b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;  
+    color: wheat;
+}
